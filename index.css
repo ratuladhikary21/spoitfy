@@ -1,0 +1,373 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+html {
+  overflow-y: scroll;
+}
+a {
+  text-decoration: none;
+}
+/* li== {
+  list-style-type: none;
+} */
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  height: 50px;
+  width: 100vw;
+  z-index: 10;
+}
+
+#logo {
+  margin-top: 10px;
+  cursor: pointer;
+}
+#logo h3 {
+  /* color: red; */
+  display: inline-block;
+  /* color: #fff; */
+}
+nav ul {
+  margin-left: 400px;
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-top: 25px;
+  margin-left: 8px;
+  cursor: pointer;
+}
+
+nav ul li:hover {
+  color: #ccc;
+}
+
+#getSpotifyFree {
+  /* background: #fa00a9; */
+  background: linear-gradient(#fa00a9, #a100d6);
+  height: 25rem;
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: space-around;
+}
+
+#getSpotifyFree::after {
+  content: "";
+  /* background: rgba(128, 0, 128, 0.9); */
+
+  background: linear-gradient(#e66465, #9198e5);
+  opacity: 0.3;
+  z-index: 0;
+  border-radius: 50%;
+  /* position: fixed; */
+  width: 250px;
+  height: 250px;
+  /* margin-left: 200px; */
+  /* top: 10px; */
+}
+
+#getSpotifyFree::before {
+  content: "";
+  background: linear-gradient(#9198e5, #a900d2);
+  opacity: 0.4;
+
+  /* z-index: 0; */
+  border-radius: 50%;
+  /* position: fixed; */
+  width: 250px;
+  height: 250px;
+  left: 150px;
+  top: 150px;
+}
+
+#freeImageContainer {
+  width: 500px;
+  height: 400px;
+  z-index: 0;
+}
+
+#svg {
+  width: 12rem;
+  height: 32rem;
+  /* margin-left: 10px; */
+  margin-top: 20px;
+  filter: invert(100%) sepia(100%) saturate(95%) hue-rotate(66deg)
+    brightness(95%) contrast(80%);
+}
+
+#phoneShot {
+  width: 168px;
+  height: 268px;
+  position: absolute;
+  top: 132px;
+  left: 357px;
+  z-index: 0;
+}
+
+#playMillionSong {
+  color: #fff;
+  margin-left: -200px;
+  font-size: 30px;
+  margin-top: 120px;
+  /* left: 1000px; */
+}
+
+#playMillionSong a {
+  padding: 8px;
+  color: #000;
+  border-radius: 20px;
+  background: #fff;
+  font-size: 18px;
+}
+
+#playMillionSong a :hover {
+  color: #ddd;
+}
+
+/* why spotify */
+#whySpotify {
+  display: flex;
+  flex-direction: column;
+}
+#whySpotify h1 {
+  text-align: center;
+  margin: 20px;
+  font-size: 30px;
+}
+
+#whySpotify main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.circleMainContainer {
+  margin-left: 50px;
+}
+
+.circleSvg {
+  width: 150px;
+  height: 150px;
+  background: linear-gradient(#9198e9, #a900d2);
+  border-radius: 50%;
+  position: relative;
+}
+.circleSvg span {
+  position: absolute;
+  margin: 45px;
+
+  color: #fff;
+}
+
+.circleMainContainer h3 {
+  font-size: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.circleMainContainer p {
+  color: #696969;
+  font-size: 12px;
+}
+
+/* its free */
+
+#itsFree {
+  width: 100vw;
+  height: 50vh;
+  background: linear-gradient(#9198e9, #a900d2);
+  margin-top: 15px;
+}
+
+#itsFree h1 {
+  text-align: center;
+  margin: 110px 400px;
+  color: #fff;
+  font-size: 45px;
+}
+#itsFree span {
+  text-align: center;
+}
+
+/* got a question  */
+
+#gotQuestion {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#gotQuestion h1 {
+  text-align: center;
+  margin: 20px;
+  font-size: 45px;
+  font-weight: bolder;
+}
+
+.questionCard {
+  margin: auto;
+}
+
+.questionCardHeading {
+  background: #f8f8f8;
+  padding: 35px;
+  border: 0.1px solid #ccc;
+  width: 800px;
+  cursor: pointer;
+}
+
+/* hide steps for now */
+.questionHide {
+  display: none;
+}
+
+.questionShow {
+  display: flex;
+  flex-direction: column;
+  border-left: 0.1px solid #ccc;
+  border-right: 0.1px solid #ccc;
+  border-bottom: 0.1px solid #ccc;
+}
+
+.questionShow p {
+  color: #696969;
+  margin: 5px;
+  font-size: 13px;
+}
+
+.questionShow ol {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 35px;
+}
+
+/* Ready Let play */
+
+#Ready {
+  /* position: relative; */
+  width: 100vw;
+  height: 50vh;
+  background: linear-gradient(#fa00a9, #a100d6);
+  margin-top: 20px;
+}
+
+#Ready h1 {
+  color: #fff;
+  text-align: center;
+  margin-top: 110px;
+  margin-bottom: 30px;
+  font-size: 65px;
+}
+
+#Ready a {
+  color: #000;
+  background: #fff;
+  padding: 10px;
+  /* margin-top: 1000px; */
+  margin-left: 700px;
+  border-radius: 50px;
+}
+
+/* Footer */
+
+footer {
+  width: 100vw;
+  height: 50vh;
+  background: #000;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+}
+
+#mainFoot {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 65px;
+}
+
+#footerLinks {
+  display: flex;
+  flex-direction: row;
+}
+
+#footerLinks div {
+  margin-top: 50px;
+  margin-left: 100px;
+}
+
+#footerLinks ul li:first-of-type {
+  font-size: 10px;
+  color: #ccc;
+  font-weight: bolder;
+  cursor: unset;
+}
+
+#footerLinks ul li:first-of-type:hover {
+  color: #ccc;
+}
+
+#footerLinks ul li {
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+#footerLinks ul li:hover {
+  color: greenyellow;
+}
+#socialFoot {
+  margin-top: 50px;
+}
+
+#socialFoot span {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+/* foot logo */
+#footLogo h3 {
+  display: inline-block;
+}
+
+/* tailFooter */
+
+#tailFooter {
+  display: flex;
+  justify-content: space-around;
+}
+
+#tailFooter ul li {
+  display: inline-block;
+  margin-left: 20px;
+  font-size: 10px;
+  color: gray;
+  cursor: pointer;
+}
+
+#tailFooter ul li:hover {
+  color: greenyellow;
+}
+
+#footLoc {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 10px;
+  color: #ccc;
+}
+
+#footLoc span:first-of-type:hover {
+  color: greenyellow;
+}

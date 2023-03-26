@@ -1,0 +1,236 @@
+body {
+font-family:Soin-Sans-Neue, Helvetica, Arial, sans-serif;
+  overflow-x: hidden;
+
+}
+
+.head{
+  padding: 15px 0px 10px;
+  margin-bottom: 30px;
+  text-align: center;
+  padding-right: -75px;
+}
+.logo a{
+
+}
+.seperator{
+  border-top: 1px lightgray solid;
+  margin-top: -100px;
+}
+.text h1{
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+
+}
+.btn-primary {
+  align-items: center;
+	background: #3b5998;
+	color: #ffffff;
+	text-transform: uppercase;
+	padding: 15px 95px;
+	border: none;
+	border-radius: 500px;
+	letter-spacing:2px;
+	font-weight: bold;
+  margin-left: 525px;
+  font-size: 14px;
+	transition: all 300ms ease;
+  margin-top: 5px;
+}
+
+.btn-primary:hover {
+background: #3a60b3;
+	cursor: pointer;
+}
+.btn-primary1 {
+  align-items: center;
+	background: #000000;
+	color: #ffffff;
+	text-transform: uppercase;
+	padding: 15px 117px;
+	border: none;
+	border-radius: 500px;
+	letter-spacing:2px;
+	font-weight: bold;
+  margin-left: 525px;
+  font-size: 14px;
+	transition: all 300ms ease;
+  margin-top: 10px;
+}
+
+.btn-primary1:hover {
+background: rgb(51, 51, 51);
+	cursor: pointer;
+}
+.btn-primary2 {
+  align-items: center;
+	background: #ffffff;
+	color: rgb(97, 100, 103);
+	text-transform: uppercase;
+	padding: 13.9px 107px;
+	border: 2px solid #616467;
+	border-radius: 500px;
+	letter-spacing:2px;
+	font-weight: bold;
+  margin-left: 525px;
+  font-size: 14px;
+	transition: all 300ms ease;
+  margin-top: 10px;
+}
+
+.btn-primary2:hover {
+background: #616467;
+color:white;
+	cursor: pointer;
+}
+.btn-primary3 {
+  align-items: center;
+	background: #ffffff;
+	color:  rgb(97, 100, 103);
+	text-transform: uppercase;
+	padding: 13.9px 85.5px;
+	border: 2px solid #616467;
+	border-radius: 500px;
+	letter-spacing:2px;
+	font-weight: bold;
+  margin-left: 525px;
+  font-size: 14px;
+	transition: all 300ms ease;
+  margin-top: 10px;
+}
+
+.btn-primary3:hover {
+background: #616467;
+color:white;
+	cursor: pointer;
+}
+.or{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 30px;
+	margin: 15px 0 20px;
+}
+
+.or .line{
+	width: 180px;
+	height: 1px;
+	background: lightgray;
+  margin-left: 535px;
+}
+.or .line2{
+	width: 185px;
+	height: 1px;
+	background: lightgray;
+  margin-right: 540px;
+}
+
+.or p{
+	color: #000000;
+	font-size: 12px;
+  font-weight: bolder;
+  margin-right: 10px;
+}
+.email{
+text-align: center;
+  font-weight: bolder;
+  margin-left: -225px;
+  margin-top: -10px;
+
+}
+.pass{
+text-align: center;
+  font-weight: bolder;
+  margin-left: -355px;
+}
+.input{
+margin: -10px;
+
+}
+.input1{
+margin: -10px;
+
+}
+.forpass{
+text-align: center;
+  font-weight: lighter;
+  margin-left: -265px;
+  margin-top: -10px;
+  color: #616467;
+  font-size: 16px;
+  transition: all 200ms ease;
+}
+.forpass:hover{
+  color: #1db954;
+	cursor: pointer;
+}
+.btn-primary12 {
+	background:  #15883e;
+	color: #ffffff;
+  border: none;
+	border-radius: 30px;
+	letter-spacing:-0.1px;
+	font-weight: bold;
+	transition: all 300ms ease;
+  font-size: 14px;
+  border-radius: 500px;
+  padding: 15px 52px 18px;
+  border-width: 0;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  white-space: normal;
+  margin-left: 780px;
+}
+
+
+.btn-primary12:hover {
+background: #1db954;
+	cursor: pointer;
+}
+.line11{
+	width: 460px;
+	height: 1px;
+	background: lightgray;
+  margin-left: 535px;
+}
+.text1 h1{
+  text-align: center;
+  font-weight: bolder;
+  font-size: 16px;
+  margin-top: 12px;
+margin-bottom: 12px;
+margin-left: 40px;
+
+}
+.btn-primary4 {
+  align-items: center;
+	background: #ffffff;
+	color:  rgb(97, 100, 103);
+	text-transform: uppercase;
+	padding: 13.9px 140.5px;
+	border: 2px solid #616467;
+	border-radius: 500px;
+	letter-spacing:2px;
+	font-weight: bold;
+  margin-left: 529px;
+  font-size: 14px;
+	transition: all 300ms ease;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.btn-primary4:hover {
+background: #616467;
+color:white;
+	cursor: pointer;
+}
+.forgivee{
+    margin-left:533px;
+    margin-top: -210px;
+    color: grey;
+	cursor: pointer;
+
+}
